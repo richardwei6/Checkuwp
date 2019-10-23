@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>c748ab8c-0e14-4d32-9105-2a1593cae571</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>1140f2e2-10f9-4f51-9709-71f49c718f00</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Electives">
+      <UniqueIdentifier>{87adb421-bdd4-4e81-a91f-1ef0bec3186c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bathroom">
+      <UniqueIdentifier>{9327867f-345f-43b7-a631-24da85bb7d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Administrator">
+      <UniqueIdentifier>{c694947d-1d30-4ab2-8b6a-8f64f1eb5a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo pages">
+      <UniqueIdentifier>{143380cf-36db-454b-8d35-69423900ee17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="admin.xaml.cpp" />
+    <ClCompile Include="bathroom.xaml.cpp" />
+    <ClCompile Include="elective.xaml.cpp" />
+    <ClCompile Include="ahs.xaml.cpp" />
+    <ClCompile Include="checkin.xaml.cpp" />
+    <ClCompile Include="dana.xaml.cpp" />
+    <ClCompile Include="foothills.xaml.cpp" />
+    <ClCompile Include="men.xaml.cpp" />
+    <ClCompile Include="women.xaml.cpp" />
+    <ClCompile Include="adminlogon.xaml.cpp" />
+    <ClCompile Include="admindata.xaml.cpp" />
+    <ClCompile Include="changelog.xaml.cpp" />
+    <ClCompile Include="logaccess.xaml.cpp" />
+    <ClCompile Include="servo.xaml.cpp" />
+    <ClCompile Include="custom.xaml.cpp" />
+    <ClCompile Include="support.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="variable.h" />
+    <ClInclude Include="admin.xaml.h" />
+    <ClInclude Include="bathroom.xaml.h" />
+    <ClInclude Include="elective.xaml.h" />
+    <ClInclude Include="ahs.xaml.h" />
+    <ClInclude Include="checkin.xaml.h" />
+    <ClInclude Include="dana.xaml.h" />
+    <ClInclude Include="foothills.xaml.h" />
+    <ClInclude Include="men.xaml.h" />
+    <ClInclude Include="women.xaml.h" />
+    <ClInclude Include="adminlogon.xaml.h" />
+    <ClInclude Include="admindata.xaml.h" />
+    <ClInclude Include="changelog.xaml.h" />
+    <ClInclude Include="Adafruit_PWMServoDriver.h" />
+    <ClInclude Include="logaccess.xaml.h" />
+    <ClInclude Include="servo.xaml.h" />
+    <ClInclude Include="custom.xaml.h" />
+    <ClInclude Include="support.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200-default.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\..\Resources\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\600b52943240009ada48cbc8c91598c2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\Misc\Visual studio out\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="checkuwp_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="checkin.xaml">
+      <Filter>Electives</Filter>
+    </Page>
+    <Page Include="elective.xaml">
+      <Filter>Electives</Filter>
+    </Page>
+    <Page Include="foothills.xaml">
+      <Filter>Electives</Filter>
+    </Page>
+    <Page Include="dana.xaml">
+      <Filter>Electives</Filter>
+    </Page>
+    <Page Include="ahs.xaml">
+      <Filter>Electives</Filter>
+    </Page>
+    <Page Include="men.xaml">
+      <Filter>Bathroom</Filter>
+    </Page>
+    <Page Include="women.xaml">
+      <Filter>Bathroom</Filter>
+    </Page>
+    <Page Include="bathroom.xaml">
+      <Filter>Bathroom</Filter>
+    </Page>
+    <Page Include="changelog.xaml" />
+    <Page Include="logaccess.xaml" />
+    <Page Include="custom.xaml" />
+    <Page Include="support.xaml" />
+    <Page Include="admin.xaml">
+      <Filter>Administrator</Filter>
+    </Page>
+    <Page Include="admindata.xaml">
+      <Filter>Administrator</Filter>
+    </Page>
+    <Page Include="adminlogon.xaml">
+      <Filter>Administrator</Filter>
+    </Page>
+    <Page Include="servo.xaml">
+      <Filter>Administrator</Filter>
+    </Page>
+    <Page Include="maindemo.xaml">
+      <Filter>Demo pages</Filter>
+    </Page>
+  </ItemGroup>
+</Project>

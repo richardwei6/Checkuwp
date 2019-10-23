@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="checkuwp.changelog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800" RequestedTheme="Default">
+        <Button x:Name="backbutton" VerticalAlignment="Bottom" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="1490" Click="Backbutton_Click" FontSize="24" Margin="0,0,0,740"/>
+        <WebView x:Name="webview1" Source="http://rnchchk.weebly.com/changelog" HorizontalAlignment="Center" Height="705" Margin="0,65,0,0" VerticalAlignment="Top" Width="1500" TabFocusNavigation="Once"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,775,0,0" Text="Still in development. Please wait for page to load. Unknown bugs may occur." TextWrapping="Wrap" VerticalAlignment="Top" Width="1024" FontWeight="Bold" FontStyle="Italic" TextDecorations="Underline"/>
+    </Grid>
+</Page>

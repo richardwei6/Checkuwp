@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+    <SplashScreenSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</SplashScreenSource>
+    <PackageLogoSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</PackageLogoSource>
+    <AppIconSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</AppIconSource>
+    <LargeTileSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</LargeTileSource>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <RemoteMachine0>checkinpi</RemoteMachine0>
+    <UseAuthentication0>False</UseAuthentication0>
+    <Source>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</Source>
+    <SmallTileSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</SmallTileSource>
+    <MediumTileSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</MediumTileSource>
+    <WideTileSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</WideTileSource>
+    <BadgeLogoSource>D:\Users\richa\Desktop\Misc\Visual Studio Work\Resources\Screenshot 2019-02-20 at 10.33.03 PM.png</BadgeLogoSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <DebuggerFlavor>UWPRemoteDebugger</DebuggerFlavor>
+    <DebuggerMachineName>logbotpi</DebuggerMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <DebuggerMachineName>logbotpi</DebuggerMachineName>
+    <DebuggerFlavor>UWPRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,6 @@
+MainPackage=D:\Users\richa\Desktop\Misc\Visual Studio Work\checkuwp\ARM\Release\checkuwp\checkuwp_1.3.3.0_ARM.msix
+SymbolPackage=D:\Users\richa\Desktop\Misc\Visual Studio Work\checkuwp\checkuwp\ARM\Release\Symbols\checkuwp_1.3.3.0_ARM.appxsym
+ResourcePack=D:\Users\richa\Desktop\Misc\Visual Studio Work\checkuwp\ARM\Release\checkuwp\checkuwp_1.3.3.0_scale-100.msix
+ResourcePack=D:\Users\richa\Desktop\Misc\Visual Studio Work\checkuwp\ARM\Release\checkuwp\checkuwp_1.3.3.0_scale-125.msix
+ResourcePack=D:\Users\richa\Desktop\Misc\Visual Studio Work\checkuwp\ARM\Release\checkuwp\checkuwp_1.3.3.0_scale-150.msix
+ResourcePack=D:\Users\richa\Desktop\Misc\Visual Studio Work\checkuwp\ARM\Release\checkuwp\checkuwp_1.3.3.0_scale-400.msix

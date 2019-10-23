@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="checkuwp.bathroom"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800">
+        <Button x:Name="backbutton" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="416" Click="Backbutton_Click" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="791,316,0,0" Text="Restroom Log" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72"/>
+        <TextBlock x:Name="timetext" HorizontalAlignment="Left" Margin="791,400,0,0" Text="(NULL)" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="22" Width="340"/>
+        <Button x:Name="menbutton" Content="Men's" HorizontalAlignment="Left" Margin="0,60,0,0" VerticalAlignment="Top" Height="370" Width="416" Click="Menbutton_Click" FontSize="36" FontWeight="Bold" FontFamily="Trebuchet MS"/>
+        <Button x:Name="womenbutton" Content="Women's" HorizontalAlignment="Left" Margin="0,430,0,0" VerticalAlignment="Top" Height="370" Width="416" Click="Womenbutton_Click" FontFamily="Trebuchet MS" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="checkbutton1" Content="defaultstring" HorizontalAlignment="Left" Margin="791,476,0,0" VerticalAlignment="Top" Height="105" Width="460" Visibility="Visible" FontSize="24" FontWeight="Bold" Click="Checkbutton1_Click"/>
+        <TextBlock x:Name="demo1" HorizontalAlignment="Left" Margin="440,476,0,0" Text="This where the checked out person would check back in. Try the feature by pressing the button -&gt;" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="108"/>
+        <TextBlock x:Name="demo5" HorizontalAlignment="Left" Margin="440,17,0,0" Text="&lt;- Press this to go back" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="237" Height="32"/>
+        <TextBlock x:Name="demo2" HorizontalAlignment="Left" Margin="464,194,0,0" Text="&lt;--These are the buttons for checkout. Click the button to learn more." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="99" />
+        <TextBlock x:Name="demo4" HorizontalAlignment="Left" Margin="1372,764,0,0" Text="Demo Mode" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="127" Height="35" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="checkbutton2" Content="defaultstring" HorizontalAlignment="Left" Margin="791,615,0,0" VerticalAlignment="Top" Height="105" Width="460" Visibility="Visible" FontSize="24" FontWeight="Bold" Click="Checkbutton2_Click"/>
+    </Grid>
+</Page>

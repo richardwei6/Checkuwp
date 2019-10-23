@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="checkuwp.women"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Width="1500" Height="800">
+        <TextBlock x:Name="demo4" HorizontalAlignment="Left" Margin="535,18,0,0" Text="&lt;- Press this to go back" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22" Width="237" Height="32"/>
+        <TextBlock x:Name="demo1" HorizontalAlignment="Left" Margin="502,635,0,0" Text="&lt;- This is for servo status." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="32"/>
+        <TextBlock x:Name="demo2" HorizontalAlignment="Left" Margin="535,259,0,0" Text="&lt;- Students would place their names in this textbox to checkout." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="59"/>
+        <TextBlock x:Name="demo3" HorizontalAlignment="Left" Margin="1372,764,0,0" Text="Demo Mode" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="127" Height="35" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Margin="750,316,0,0" Text="Women's Restroom" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72"/>
+        <TextBlock x:Name="timetext" HorizontalAlignment="Left" Margin="768,399,0,0" Text="(NULL)" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="22" Width="340"/>
+        <TextBlock x:Name="servosysstatus" HorizontalAlignment="Left" Margin="35,600,0,0" Text="(NULL)" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48" FontWeight="ExtraBlack" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,118,0,0" Text="Enter your name:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="37,207,0,0" Text="Please only put YOUR real name." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="24" FontStyle="Italic" FontWeight="Bold" TextDecorations="Underline"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,496,0,0" Text="Servo system status:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48"/>
+        <TextBox x:Name="nameinput" HorizontalAlignment="Left" Margin="38,249,0,0" Text="" VerticalAlignment="Top" Width="441" Height="62" FontSize="36" FontFamily="Trebuchet MS" FontWeight="SemiBold" PlaceholderText="Enter your name here." TextChanged="Nameinput_TextChanged" KeyDown="Nameinput_KeyDown"/>
+        <Button x:Name="confirmbutton" Content="Confirm" HorizontalAlignment="Left" Margin="38,358,0,0" VerticalAlignment="Top" Height="108" Width="342" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" Click="Confirmbutton_Click"/>
+        <Button x:Name="backbutton" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="416" Click="Backbutton_Click" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,316,0,0" Text="Note: Pressing enter works now." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="24" FontStyle="Italic"/>
+    </Grid>
+</Page>

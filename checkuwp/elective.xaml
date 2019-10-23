@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="checkuwp.elective"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800">
+        <TextBlock x:Name="demo4" HorizontalAlignment="Left" Margin="535,18,0,0" Text="&lt;- Press this to go back" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22" Width="237" Height="32"/>
+        <TextBlock x:Name="demo2" HorizontalAlignment="Left" Margin="477,114,0,0" Text="&lt;- When students arrive back, they press this to check in. Press the button to learn more." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="99"/>
+        <TextBlock x:Name="demo1" HorizontalAlignment="Left" Margin="535,465,0,0" Text="&lt;- When students want to leave for their electives, they press the button that has the name of their home school. Press any to learn more." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="139"/>
+        <TextBlock x:Name="demo3" HorizontalAlignment="Left" Margin="1372,764,0,0" Text="Demo Mode" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="127" Height="35" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="checkin" Content="Check-In" HorizontalAlignment="Left" Margin="0,60,0,0" VerticalAlignment="Top" Height="185" Width="416" Click="Checkin_Click" FontSize="36" FontWeight="Bold" FontFamily="Trebuchet MS"/>
+        <Button x:Name="foothills" Content="Foothills" HorizontalAlignment="Left" Margin="0,245,0,0" VerticalAlignment="Top" Height="185" Width="416" Click="Foothills_Click" FontSize="36" FontWeight="Bold" FontFamily="Trebuchet MS"/>
+        <Button x:Name="dana" Content="Dana" HorizontalAlignment="Left" Margin="0,430,0,0" VerticalAlignment="Top" Height="185" Width="416" Click="Dana_Click" FontSize="36" FontWeight="Bold" FontFamily="Trebuchet MS"/>
+        <Button x:Name="arcadia" Content="Arcadia High" HorizontalAlignment="Left" Margin="0,615,0,0" VerticalAlignment="Top" Height="185" Width="416" Click="Arcadia_Click" FontSize="36" FontWeight="Bold" FontFamily="Trebuchet MS"/>
+        <Button x:Name="backbutton" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="416" Click="Backbutton_Click" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="791,316,0,0" Text="Electives" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72"/>
+        <TextBlock x:Name="timetext" HorizontalAlignment="Left" Margin="791,400,0,0" Text="(NULL)" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="22" Width="340"/>
+        <Popup>
+            <Grid Background="#FFE5E5E5"/>
+        </Popup>
+    </Grid>
+</Page>

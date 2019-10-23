@@ -1,0 +1,6 @@
+MainPackage=D:\Users\richa\source\repos\CheckInOut_revised\checkuwp\ARM64\Debug\checkuwp\checkuwp_1.0.2.0_ARM64_Debug.msix
+SymbolPackage=D:\Users\richa\source\repos\CheckInOut_revised\checkuwp\AppPackages\checkuwp\checkuwp_1.0.2.0_Debug_Test\checkuwp_1.0.2.0_ARM64_Debug.appxsym
+ResourcePack=D:\Users\richa\source\repos\CheckInOut_revised\checkuwp\ARM64\Debug\checkuwp\checkuwp_1.0.2.0_scale-100.msix
+ResourcePack=D:\Users\richa\source\repos\CheckInOut_revised\checkuwp\ARM64\Debug\checkuwp\checkuwp_1.0.2.0_scale-125.msix
+ResourcePack=D:\Users\richa\source\repos\CheckInOut_revised\checkuwp\ARM64\Debug\checkuwp\checkuwp_1.0.2.0_scale-150.msix
+ResourcePack=D:\Users\richa\source\repos\CheckInOut_revised\checkuwp\ARM64\Debug\checkuwp\checkuwp_1.0.2.0_scale-400.msix

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="checkuwp.ahs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800">
+        <TextBlock x:Name="demo" HorizontalAlignment="Left" Margin="535,658,0,0" Text="&lt;- Once students confirm all the information, they press confirm and they can go to electives!" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="86"/>
+        <TextBlock x:Name="demo4" HorizontalAlignment="Left" Margin="535,18,0,0" Text="&lt;- Press this to go back" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22" Width="237" Height="32"/>
+        <TextBlock x:Name="demo2" HorizontalAlignment="Left" Margin="444,178,0,0" Text="&lt;- This tells them what kind of elective they're going to and the time. Since times are different each day, they change dynamically." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="140"/>
+        <TextBlock x:Name="demo1" HorizontalAlignment="Left" Margin="591,373,0,0" Text="&lt;- Students check who's going to their electives. If someone is not present, they uncheck the person and continue." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="349" Height="117"/>
+        <TextBlock x:Name="demo3" HorizontalAlignment="Left" Margin="1372,764,0,0" Text="Demo Mode" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="22" Width="127" Height="35" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="backbutton" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="750" Click="Backbutton_Click" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="49,83,0,0" Text="Arcadia High School - Algebra 2" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="72" Height="122" Width="1088"/>
+        <TextBlock HorizontalAlignment="Left" Margin="93,184,0,0" Text="8:50 am - 9:55 am" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="36" Height="56" Width="382" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="93,263,0,0" Text="Occupants:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Nirmala UI Semilight" FontSize="36" Height="56" Width="190" FontStyle="Italic"/>
+        <Button x:Name="confirm1" Content="Confirm" HorizontalAlignment="Left" Margin="93,632,0,0" VerticalAlignment="Top" Height="112" Width="358" FontSize="36" Click="Confirm1_Click"/>
+        <CheckBox x:Name="stephaniecheck" Content="Stephanie Wang - 29970" HorizontalAlignment="Left" Margin="138,0,0,0" VerticalAlignment="Center" Height="54" Width="448" IsChecked="True" FontSize="36" FontStyle="Italic" FontFamily="Nirmala UI Semilight"/>
+        <CheckBox x:Name="cindycheck" Content="Cindy Lu - 30250" HorizontalAlignment="Left" Margin="138,506,0,0" VerticalAlignment="Top" Height="54" Width="332" IsChecked="True" FontSize="36" FontStyle="Italic" FontFamily="Nirmala UI Semilight"/>
+
+    </Grid>
+</Page>

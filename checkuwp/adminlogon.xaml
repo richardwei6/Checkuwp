@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="checkuwp.adminlogon"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800" RenderTransformOrigin="0.411,0.49">
+        <Button x:Name="backbutton" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="800" Width="416" Click="Backbutton_Click" FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="431,236,0,0" Text="Enter password:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72" Width="525"/>
+        <TextBlock x:Name="statusbox" HorizontalAlignment="Left" Margin="431,325,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="713" FontFamily="Trebuchet MS" FontSize="20"/>
+        <PasswordBox x:Name="passinput" HorizontalAlignment="Left" Margin="431,368,0,0" VerticalAlignment="Top" Width="713" Height="72" PasswordChanged="Passinput_PasswordChanged_1" FontFamily="Trebuchet MS" FontSize="36" PlaceholderText="Enter password here" KeyDown="Passinput_KeyDown"/>
+        <Button Content="Confirm" HorizontalAlignment="Left" Margin="788,497,0,0" VerticalAlignment="Top" Height="113" Width="357" FontSize="24" FontWeight="Bold" FontFamily="Trebuchet MS" Click="Button_Click"/>
+    </Grid>
+</Page>

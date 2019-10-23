@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="checkuwp.custom"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800">
+        <HyperlinkButton Name="warningrestart" HorizontalAlignment="Left" Margin="923,756,0,0" Content="Warning: This is NOT for Electives or Restroom checkout." VerticalAlignment="Top" Height="44" Width="567" FontFamily="Trebuchet MS" FontSize="22" Click="Warningrestart_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="791,316,0,0" Text="Custom Checkout" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,207,0,0" Text="Reason:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,453,0,0" Text="Will you be returning?" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,85,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48"/>
+        <TextBlock x:Name="timetext" HorizontalAlignment="Left" Margin="791,400,0,0" Text="(NULL)" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="22" Width="340"/>
+        <Button x:Name="confirmbutton" Content="Submit" HorizontalAlignment="Left" Margin="37,658,0,0" VerticalAlignment="Top" Height="108" Width="486" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" Click="Confirmbutton_Click"/>
+        <Button x:Name="backbutton" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="523" Click="Backbutton_Click" FontSize="24"/>
+        <TextBox x:Name="namein" HorizontalAlignment="Left" Margin="52,146,0,0" Text="" VerticalAlignment="Top" Height="44" Width="364" FontFamily="Trebuchet MS" FontSize="24" PlaceholderText="Enter your name here..." InputScope="PersonalFullName"/>
+        <TextBox x:Name="reason" HorizontalAlignment="Left" Margin="52,268,0,0" Text="" VerticalAlignment="Top" Height="158" Width="471" FontFamily="Trebuchet MS" FontSize="20" PlaceholderText="Type your reason for leaving..." InputScope="Text" AcceptsReturn="True"/>
+        <RadioButton x:Name="yesreturn" Content="Yes" HorizontalAlignment="Left" Margin="125,546,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48" Width="136" FontWeight="Bold"/>
+        <RadioButton x:Name="noreturn" Content="No" HorizontalAlignment="Left" Margin="287,546,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48" Width="136" FontWeight="Bold"/>
+    </Grid>
+</Page>

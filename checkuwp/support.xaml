@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="checkuwp.support"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:checkuwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Width="1500" Height="800">
+        <TextBox x:Name="namein" HorizontalAlignment="Left" Margin="52,148,0,0" Text="" VerticalAlignment="Top" Height="44" Width="364" FontFamily="Trebuchet MS" FontSize="24" PlaceholderText="Enter your name here..." InputScope="PersonalFullName"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,87,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48"/>
+        <TextBox x:Name="issue" HorizontalAlignment="Left" Margin="52,278,0,0" Text="" VerticalAlignment="Top" Height="158" Width="471" FontFamily="Trebuchet MS" FontSize="20" PlaceholderText="Describe your issue..." InputScope="Text" AcceptsReturn="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,217,0,0" Text="Issue:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,465,0,0" Text="Additional information:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="36"/>
+        <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Margin="37,658,0,0" VerticalAlignment="Top" Height="108" Width="486" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" Click="Submit_Click"/>
+        <TextBlock x:Name="timetext" HorizontalAlignment="Left" Margin="791,400,0,0" Text="(NULL)" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="22" Width="340"/>
+        <TextBlock HorizontalAlignment="Left" Margin="791,316,0,0" Text="Support Ticket" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="72"/>
+        <TextBox x:Name="additional" HorizontalAlignment="Left" Margin="52,512,0,0" Text="" VerticalAlignment="Top" Height="100" Width="471" FontFamily="Trebuchet MS" FontSize="20" PlaceholderText="Additional information (optional)..." InputScope="Text" AcceptsReturn="True"/>
+        <Button x:Name="backbutton" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Height="60" Width="523" Click="Backbutton_Click" FontSize="24"/>
+    </Grid>
+</Page>
